@@ -1,0 +1,67 @@
+.one {
+    text-align: center;
+}
+
+.bg-red {
+    background: rgb(1, 18, 12);
+}
+
+.mx-auto {
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+    text-align: center;
+}
+
+.button {
+    padding: 50px;
+    margin: 2px 3px;
+    border: 2px solid wheat;
+    border-radius: 30px;
+    font-size: 22px;
+    color: aquamarine;
+    background-color: rgb(42, 57, 52);
+}
+
+.input {
+    width: 500px;
+    height: 100px;
+    padding: 2px 2px;
+    margin: 4px;
+    border: 2px solid wheat;
+    border-radius: 30px;
+    background-color: rgb(42, 57, 52);
+    color: aquamarine;
+    font-size: 22px;
+}
+
+.one {
+    text-transform: uppercase;
+    background-image: linear-gradient( -225deg, aquamarine 0%, rgb(42, 57, 52) 29%, wheat 67%, green 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    /* display: inline-block; */
+    font-size: 90px;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 100% center;
+    }
+}
